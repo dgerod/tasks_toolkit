@@ -1,5 +1,6 @@
 from .operation_connector import OperationConnectorLock
-from .operation_caller import Operation, OperationCaller
+from .operation import Operation
+from .operation_caller import OperationCaller
 
 
 class OperationsExecutor(object):

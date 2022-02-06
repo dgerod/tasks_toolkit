@@ -3,15 +3,6 @@ import time
 from .operation_connector import OperationConnectorLock
 
 
-class Operation:
-
-    def __init__(self, function):
-        self._function = function
-
-    def request(self, inputs):
-        return self._function(inputs)
-
-
 class OperationHandler:
 
     def __init__(self, connector: OperationConnectorLock, refresh_time_in_seconds: float):

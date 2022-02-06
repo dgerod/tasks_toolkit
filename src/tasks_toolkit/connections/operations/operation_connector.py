@@ -1,4 +1,5 @@
 import threading
+from .operation import Operation
 
 
 class OperationConnectorLock:
